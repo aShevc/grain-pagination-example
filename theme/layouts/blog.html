@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<% page.posts.each { post ->
+def brief = post.render().content.split('<!--more-->').head()
+%>
+<h4>${post.date.format('yyyy/MM/dd')}</h4>
+<h2><a href="${post.url}">${post.title}</a></h2>
+<p>${brief}</p>
+<% } %>
+<% if (page.prev_page) { %>
+<a href="${page.prev_page}">&larr; Newer</a>
+<% } %>
+<% if (page.next_page) { %>
+<a href="${page.next_page}">Older &rarr;</a>
+<% } %>
