@@ -5,7 +5,7 @@ layout: default
 def brief = post.render().content.split('<!--more-->').head()
 %>
 <h4>${post.date.format('yyyy/MM/dd')}</h4>
-<h2><a href="${post.url}">${post.title}</a></h2>
+<h2><a href="${site.url}${post.url}">${post.title}</a></h2>
 <p>${brief}</p>
 <% } %>
 <% if (page.prev_page) { %>

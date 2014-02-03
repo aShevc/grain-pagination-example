@@ -11,7 +11,7 @@ environments {
     }
     prod {
         log.info 'Production environment is used'
-        url = '' // site URL, for example http://www.example.com
+        url = 'http://ashevc.github.io/grain-pagination-example' // site URL, for example http://www.example.com
         show_unpublished = false
         features {
             minify_xml = false
@@ -64,7 +64,7 @@ code_allowed_files = ['txt', 'js', 'rb']
 s3_bucket = '' // your S3 bucket name
 deploy_s3 = "s3cmd sync --acl-public --reduced-redundancy ${destination_dir}/ s3://${s3_bucket}/"
 
-gh_pages_url = '' // path to GitHub repository in format git@github.com:{username}/{repo}.git
+gh_pages_url = 'git@github.com:aShevc/grain-pagination-example.git' // path to GitHub repository in format git@github.com:{username}/{repo}.git
 deploy = new GHPagesDeployer(site).deploy
 
 // Custom commands-line commands.
