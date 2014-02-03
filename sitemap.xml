@@ -12,6 +12,11 @@
     </url>
 
     <url>
+        <loc>http://ashevc.github.io/grain-pagination-example/</loc>
+        <lastmod>2014-02-03T15:27:58+02:00</lastmod>
+    </url>
+
+    <url>
         <loc>http://ashevc.github.io/grain-pagination-example/blog/2014/02/02/second-awesome-post/</loc>
         <lastmod>2014-01-30T13:21:19+02:00</lastmod>
     </url>
@@ -29,11 +34,6 @@
     <url>
         <loc>http://ashevc.github.io/grain-pagination-example/blog/page/2/</loc>
         <lastmod>2014-01-28T11:57:43+02:00</lastmod>
-    </url>
-
-    <url>
-        <loc>http://ashevc.github.io/grain-pagination-example/</loc>
-        <lastmod>2014-01-14T11:10:32+02:00</lastmod>
     </url>
 
 </urlset>
