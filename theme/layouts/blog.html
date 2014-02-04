@@ -9,8 +9,8 @@ def brief = post.render().content.split('<!--more-->').head()
 <p>${brief}</p>
 <% } %>
 <% if (page.prev_page) { %>
-<a href="${page.prev_page}">&larr; Newer</a>
+<a href="${site.url}${page.prev_page}">&larr; Newer</a>
 <% } %>
 <% if (page.next_page) { %>
-<a href="${page.next_page}">Older &rarr;</a>
+<a href="${site.url}${page.next_page}">Older &rarr;</a>
 <% } %>
