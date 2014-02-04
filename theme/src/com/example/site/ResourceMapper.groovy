@@ -28,7 +28,7 @@ class ResourceMapper {
         }.sort { -it.date.time }
 
         // Capturing all the resources, which location starts with /posts/
-        def posts = resources.findAll { it.location =~ /\/posts\/.*/ }
+        def posts = refinedResources.findAll { it.location =~ /\/posts\/.*/ }
 
         // Reforming the whole resources list
         refinedResources.inject([]) { List updatedResources, Map page ->
