@@ -2,6 +2,11 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 
     <url>
+        <loc>http://ashevc.github.io/grain-pagination-example/</loc>
+        <lastmod>2014-02-13T10:28:38+02:00</lastmod>
+    </url>
+
+    <url>
         <loc>http://ashevc.github.io/grain-pagination-example/blog/2014/02/04/latest-awesome-post/</loc>
         <lastmod>2014-01-30T13:18:08+02:00</lastmod>
     </url>
@@ -9,11 +14,6 @@
     <url>
         <loc>http://ashevc.github.io/grain-pagination-example/blog/2014/02/03/third-awesome-post/</loc>
         <lastmod>2014-01-30T13:18:08+02:00</lastmod>
-    </url>
-
-    <url>
-        <loc>http://ashevc.github.io/grain-pagination-example/</loc>
-        <lastmod>2014-02-03T15:27:58+02:00</lastmod>
     </url>
 
     <url>
